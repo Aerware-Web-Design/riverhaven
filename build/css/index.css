@@ -6,3 +6,9 @@
     --gray: #565656;
     --burgandy: #663333;
 }
+
+iframe {
+    border: none;
+    width: 100%;
+    margin: 0px;
+}

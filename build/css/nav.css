@@ -1,4 +1,6 @@
 body {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     max-height: 200px;
+    width: 100%;
+    margin: 0px;
 }
