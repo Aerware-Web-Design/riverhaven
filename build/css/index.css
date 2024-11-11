@@ -7,6 +7,10 @@
     --burgandy: #663333;
 }
 
+body {
+    margin: 0px;
+}
+
 iframe {
     border: none;
     width: 100%;
