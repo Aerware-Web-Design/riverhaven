@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
     --blue-white: #ECF7FB;
@@ -7,6 +7,8 @@
     --dark-green: #182018;
     --gray: #565656;
     --burgandy: #663333;
+    --gold: #ffd600;
+    font-family: "Playfair Display", "serif";
 }
 
 body {
@@ -23,4 +25,13 @@ iframe {
     max-width: 100%;
     position:absolute;
     z-index: -10;
+}
+
+h1 {
+    font-family: "Allison", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    margin: 0px;
+    color: var(--gold);
 }
