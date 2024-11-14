@@ -21,3 +21,14 @@ body {
 .logo {
     max-height: 120px;
 }
+
+.link {
+  margin-right: 40px;
+  color: #182018 /*var(--dark-green)*/;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
