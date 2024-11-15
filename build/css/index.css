@@ -23,15 +23,37 @@ iframe {
 
 .property {
     max-width: 100%;
-    position:absolute;
     z-index: -10;
 }
 
-h1 {
+.property-header {
     font-family: "Allison", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 200px;
+    font-size: 250px;
     margin: 0px;
     color: var(--gold);
+    position: relative;
+    top: -550px;
+    left: 90px;
+    text-shadow: black 5px 5px 10px;
+}
+
+.sub-header {
+    font-family: "Playfair Display";
+    font-size: 70px;
+    font-weight: 500;
+    color: var(--blue-white);
+    position: relative;
+    top: 100px;
+    left: -230px;
+}
+.Riverhaven {
+    font-family: "Playfair Display";
+    font-size: 183px;
+    font-weight: 500;
+    color: var(--blue-white);
+    position: relative;
+    top: -180px;
+    left: 230px;
 }
