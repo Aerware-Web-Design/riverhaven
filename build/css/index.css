@@ -26,6 +26,14 @@ iframe {
     z-index: -10;
 }
 
+.gradient {
+    background: black;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.491));
+    display: flex;
+    opacity: 1;
+    width: 100%;
+}
+
 .property-header {
     font-family: "Allison", cursive;
     font-weight: 400;
@@ -36,6 +44,8 @@ iframe {
     position: relative;
     top: -550px;
     left: 90px;
+    bottom: 0px;
+    right: -100px;
     text-shadow: black 5px 5px 10px;
 }
 
@@ -47,6 +57,8 @@ iframe {
     position: relative;
     top: 100px;
     left: -230px;
+    bottom: 0px;
+    right: 230px;
 }
 .Riverhaven {
     font-family: "Playfair Display";
@@ -56,4 +68,6 @@ iframe {
     position: relative;
     top: -180px;
     left: 230px;
+    bottom: 0px;
+    right: -230px;
 }
