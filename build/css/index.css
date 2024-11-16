@@ -20,6 +20,7 @@ header {
 }
 
 .prop {
+    /* aspect-ratio: 1/1; */
     height: 0;
     padding: 0;
     padding-bottom: 52.7%;
@@ -76,8 +77,8 @@ header {
     margin: 0px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 20px;
     text-align: center;
-
 }
 
 .cursive {
@@ -91,4 +92,26 @@ header {
     font-family: "Playfair Display";
     font-size: 40px;
     color: var(--gray);
+}
+
+.bullet-point-contatiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bullet-point-boxes {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    aspect-ratio: 1/1;
+    width: 20%;
+    background-color: var(--blue-white);
+    border: 1px solid var(--blue-white);
+    border-radius: 5px;
 }
