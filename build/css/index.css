@@ -151,3 +151,30 @@ header {
     width: 40%;
     aspect-ratio: 4/1;
 }
+
+.waterfront {
+    aspect-ratio: 2.5/1;
+    background-image: url("../assets/220_Daisy_Lane_Drone-2.jpg");
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-text-container {
+    background-color: var(--green);
+    height: 10%;
+    text-align: left;
+    width: auto;
+    padding: 20px;
+    margin: 0px;
+    top: 5px;
+}
+
+.footer-text {
+    color: var(--blue-white);
+    margin: 0px;
+}
+
+.aerware-link {
+    color: var(--blue-white);
+}
