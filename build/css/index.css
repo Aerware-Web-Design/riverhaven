@@ -13,6 +13,7 @@
 
 body {
     margin: 0px;
+    font-family: "Playfair Display";
 }
 
 header {
@@ -72,7 +73,8 @@ header {
     top: -70px;
 }
 
-.riverhaven-description {
+.riverhaven-description,
+.interest-list {
     background-color: var(--light-green);
     margin: 0px;
     padding-left: 10%;
@@ -110,8 +112,42 @@ header {
 
 .box {
     aspect-ratio: 1/1;
-    width: 20%;
+    width: 25%;
     background-color: var(--blue-white);
     border: 1px solid var(--blue-white);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.not-bold {
+    font-weight: 400;
+}
+
+.intergenerational {
+    font-size: 100px;
+    color: var(--dark-green);
+}
+
+.interest-list {
+    font-family: "Playfair Display";
+    background-color: var(--blue-white);
+}
+
+.interest-list-button {
+    font-family: "Playfair Display";
+    background-color: var(--burgandy);
+    border-radius: 20px;
+    color: var(--blue-white);
+    font-size: 40px;
+    width: 40%;
+    aspect-ratio: 4/1;
 }
