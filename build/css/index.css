@@ -21,6 +21,16 @@ iframe {
     margin: 0px;
 }
 
+.prop {
+    height: 0;
+    padding: 0;
+    padding-bottom: 53%;
+    background-image: url("../assets/220_Daisy_Lane_Drone-9.png");
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .property {
     max-width: 100%;
     z-index: -10;
