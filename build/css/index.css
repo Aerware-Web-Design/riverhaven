@@ -15,10 +15,8 @@ body {
     margin: 0px;
 }
 
-iframe {
-    border: none;
-    width: 100%;
-    margin: 0px;
+header {
+    padding: 20px;
 }
 
 .prop {
@@ -71,4 +69,26 @@ iframe {
     color: var(--blue-white);
     position: relative;
     top: -70px;
+}
+
+.riverhaven-description {
+    background-color: var(--light-green);
+    margin: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+
+}
+
+.cursive {
+    margin: 0;
+    font-family: "Allison";
+    font-size: 110px;
+    color: var(--burgandy);
+}
+
+.description {
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: var(--gray);
 }
