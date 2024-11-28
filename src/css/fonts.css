@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Allison';
+	src: url(/fonts/Allison/Allison-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	font-weight: normal;
+	src: url(/fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	font-weight: bold;
+	src: url(/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	font-style: italic;
+	src: url(/fonts/Playfair_Display_SC/PlayfairDisplaySC-Italic.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	font-weight: bold;
+	font-style: italic;
+	src: url(/fonts/Playfair_Display_SC/PlayfairDisplaySC-BoldItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url(/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	src: url(/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}

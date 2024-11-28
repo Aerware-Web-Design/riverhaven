@@ -1,0 +1,48 @@
+@import url(fonts.css);
+
+:root {
+	--white: #ffffff;
+	--black: #182018;
+	--gray: #565656;
+	--light-blue: #ecf7fb;
+	--teal: #b1c8c3;
+	--gold: #ffd600;
+	--rust: #663333;
+}
+
+body {
+	margin: 0;
+	font-family: 'Playfair Display';
+}
+
+h1, h2, h3 {
+	font-family: 'Playfair Display SC';
+	margin: 0;
+}
+
+.cursive {
+	font-family: 'Allison';
+}
+
+.join-link {
+	display: flex;
+	align-items: center;
+	grid-gap: 12px;
+	color: var(--white);
+	font-weight: bold;
+	font-family: 'Playfair Display SC';
+	letter-spacing: 1px;
+	padding: 20px;
+
+	img {
+		height: 50px;
+	}
+
+	@media(max-width: 850px) {
+		font-size: 14px;
+
+		img {
+			height: 45px;
+		}
+	}
+}

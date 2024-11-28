@@ -1,0 +1,21 @@
+nav {
+	background: var(--light-blue);
+
+	.content {
+		max-width: 1200px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px;
+		height: 50px;
+		margin: auto;
+
+		img {
+			height: 100%;
+
+			&.menu-button {
+				height: 70%;
+			}
+		}
+	}
+}
