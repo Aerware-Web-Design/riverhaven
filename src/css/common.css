@@ -17,6 +17,7 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Playfair Display SC';
+	text-align: center;
 	margin: 0;
 }
 
@@ -38,6 +39,12 @@ p {
 	font-family: 'Playfair Display SC';
 	letter-spacing: 1px;
 	padding: 20px;
+	background: var(--rust);
+	border-radius: 7px;
+
+	&.transparent {
+		background: none;
+	}
 
 	img {
 		height: 50px;
@@ -53,5 +60,5 @@ p {
 }
 
 .trees {
-	width: 54px;
+	width: 45px;
 }

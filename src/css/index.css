@@ -80,11 +80,19 @@ main {
 	h2 {
 		color: var(--rust);
 		font-size: 50px;
+
+		@media(max-width: 850px) {
+			font-size: 45px;
+		}
 	}
 
 	h3 {
 		font-size: 35px;
 		font-weight: normal;
+
+		@media(max-width: 850px) {
+			font-size: 30px;
+		}
 	}
 
 	.content {
@@ -94,6 +102,7 @@ main {
 
 		p {
 			color: var(--gray);
+			max-width: 650px;
 		}
 
 		.container {
@@ -103,6 +112,11 @@ main {
 			grid-gap: 20px;
 			max-width: 800px;
 		}
+		
+		.join-link {
+			width: 300px;
+			justify-content: center;
+		}
 
 		@media(max-width: 850px) {
 			padding: 20px;
@@ -110,6 +124,36 @@ main {
 	}
 
 	.community {
-		background: var(--teal);
+		background-color: var(--teal);
+		background-image: url(../img/whisps1.svg);
+		background-repeat: no-repeat;
+		background-position: calc(50%) calc(100% - 80px);
+		background-size: auto 50px;
+	}
+
+	.forming {
+		background: url(../img/whisps2.svg) no-repeat calc(50% - 20px) 100% / auto 120px;
+		padding-bottom: 60px;
+	}
+
+	.cards {
+		display: flex;
+		grid-gap: 20px;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.card {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			font-family: 'Playfair Display SC';
+			padding: 20px;
+			background: var(--light-blue);
+			height: 100px;
+			max-width: 150px;
+			border-radius: 7px;
+		}
 	}
 }
