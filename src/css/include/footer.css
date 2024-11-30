@@ -1,0 +1,41 @@
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background:
+		linear-gradient(transparent 70%, rgba(0, 0, 0, 0.7)),
+		url(../../img/footer-wave.png) left calc(100% + 30px) / 100% 150px no-repeat,
+		url(../../img/river-shore.jpg) center / cover no-repeat;
+	height: 300px;
+	color: white;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+		width: 100%;
+		max-width: 800px;
+	}
+
+	.socials{
+		display: flex;
+		grid-gap: 20px;
+
+		img {
+			height: 30px;
+		}
+	}
+
+	@media(max-width: 850px) {
+		height: 200px;
+		background:
+			linear-gradient(transparent 70%, rgba(0, 0, 0, 0.7)),
+			url(../../img/footer-wave.png) 0% calc(100% + 10px) / 850px 100px no-repeat,
+			url(../../img/river-shore.jpg) center / cover no-repeat;
+		font-size: 14px;
+
+		.socials img {
+			height: 20px;
+		}
+	}
+}
