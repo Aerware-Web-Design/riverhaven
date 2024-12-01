@@ -9,12 +9,16 @@ footer {
 	height: 300px;
 	color: white;
 
+	a {
+		color: var(--white);
+	}
+
 	.container {
 		display: flex;
 		justify-content: space-between;
 		align-items: end;
 		width: 100%;
-		max-width: 800px;
+		max-width: 1200px;
 	}
 
 	.socials{

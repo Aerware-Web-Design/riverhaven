@@ -5,6 +5,7 @@
 	--black: #182018;
 	--gray: #565656;
 	--light-blue: #ecf7fb;
+	--link-blue: #678dc6;
 	--teal: #b1c8c3;
 	--gold: #ffd600;
 	--rust: #663333;
@@ -21,6 +22,15 @@ h1, h2, h3 {
 	margin: 0;
 }
 
+h2 {
+	color: var(--rust);
+	font-size: 50px;
+
+	@media(max-width: 850px) {
+		font-size: 45px;
+	}
+}
+
 p {
 	margin: 0;
 }
@@ -33,7 +43,7 @@ p {
 .join-link {
 	display: flex;
 	align-items: center;
-	grid-gap: 12px;
+	gap: 12px;
 	color: var(--white);
 	font-weight: bold;
 	font-family: 'Playfair Display SC';
@@ -41,6 +51,7 @@ p {
 	padding: 20px;
 	background: var(--rust);
 	border-radius: 7px;
+	text-decoration: none;
 
 	&.transparent {
 		background: none;
@@ -61,4 +72,8 @@ p {
 
 .trees {
 	width: 45px;
+}
+
+.hidden {
+	display: none;
 }

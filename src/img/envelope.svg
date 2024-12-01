@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="37"
+   height="29"
+   viewBox="0 0 37 29"
+   fill="none"
+   version="1.1"
+   id="svg10"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <g
+     style="mix-blend-mode:multiply"
+     id="g8"
+     transform="translate(-3.5,-3.5)">
+    <path
+       id="path2"
+       d="M 6,3.5 C 4.8547256,3.5 4.046538,4.3448201 3.75,5.3945312 L 22,18.169922 40.25,5.3945312 C 39.953462,4.3448201 39.145274,3.5 38,3.5 Z M 3.5,8.8808594 V 30 c 0,1.381817 1.1181832,2.5 2.5,2.5 h 32 c 1.381817,0 2.5,-1.118183 2.5,-2.5 V 8.8808594 L 22.859375,21.228516 a 1.50015,1.50015 0 0 1 -1.71875,0 z"
+       style="fill:#565656;fill-opacity:1" />
+  </g>
+</svg>
