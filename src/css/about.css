@@ -4,6 +4,10 @@ main {
 	.header-image {
 		background: url(../img/steps.jpg) center / cover;
 		height: 300px;
+
+		@media(max-width: 850px) {
+			height: 200px;
+		}
 	}
 
 	.about {
@@ -32,6 +36,12 @@ main {
 
 			img {
 				width: 100px;
+			}
+
+			@media(max-width: 850px) {
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
 			}
 		}
 	}
@@ -69,6 +79,16 @@ main {
 
 		.arrow {
 			width: 80px;
+		}
+
+		@media(max-width: 850px) {
+			flex-direction: column;
+			align-items: center;
+
+			.arrow {
+				padding: 20px;
+				transform: rotate(90deg);
+			}
 		}
 	}
 }
