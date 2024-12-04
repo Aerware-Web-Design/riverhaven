@@ -36,6 +36,12 @@ p {
 	margin: 0;
 }
 
+hr {
+	width: 100px;
+	border: none;
+	border-bottom: 1px solid var(--gray);
+}
+
 .cursive {
 	font-family: 'Allison';
 	font-weight: normal;

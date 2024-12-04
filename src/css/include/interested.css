@@ -1,0 +1,25 @@
+.interested {
+	color: var(--gray);
+	padding: 40px 20px;
+
+	h3 {
+		text-align: left;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		gap: 40px;
+		flex-wrap: wrap;
+		margin: auto;
+		width: fit-content;
+	}
+
+	.blurb {
+		width: 280px;
+	}
+}

@@ -1,6 +1,10 @@
 @import url(common.css);
 
 main {
+	h2 {
+		margin-bottom: -20px;
+	}
+
 	.header-image {
 		background: url(../img/steps.jpg) center / cover;
 		height: 300px;
@@ -14,7 +18,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 40px;
+		gap: 30px;
 		padding: 20px 20px 80px 20px;
 		background-color: var(--teal);
 		background-image: url(../img/whisps1.svg);
@@ -31,7 +35,7 @@ main {
 			padding: 20px;
 			max-width: 650px;
 			border-radius: 10px;
-			border: 1px solid var(--gray);
+			border: 1px solid var(--rust);
 			line-height: 25px;
 
 			img {
@@ -44,50 +48,114 @@ main {
 				text-align: center;
 			}
 		}
-	}
 
-	.values {
-		color: var(--gray);
-		text-align: left;
-
-		h3 {
-			font-size: 18px;
-			font-weight: normal;
+		.values {
+			color: var(--gray);
 			text-align: left;
-			padding-left: 25px;
+
+			h3 {
+				font-size: 18px;
+				font-weight: normal;
+				text-align: left;
+				padding-left: 25px;
+			}
+
+			ul {
+				line-height: 25px;
+				column-count: 2;
+				column-gap: 40px;
+				column-width: 240px;
+			}
 		}
 
-		ul {
-			line-height: 25px;
-			column-count: 2;
-			column-gap: 40px;
-			column-width: 240px;
-		}
-	}
+		.flowchart {
+			display: flex;
 
-	.flowchart {
-		display: flex;
-
-		.flowchart-item {
-			text-align: center;
-			line-height: 25px;
-			padding: 20px;
-			background: var(--light-blue);
-			border-radius: 7px;
-			width: 150px;
-		}
-
-		.arrow {
-			width: 80px;
-		}
-
-		@media(max-width: 850px) {
-			flex-direction: column;
-			align-items: center;
+			.flowchart-item {
+				text-align: center;
+				line-height: 25px;
+				padding: 20px;
+				background: var(--light-blue);
+				border-radius: 7px;
+				width: 150px;
+			}
 
 			.arrow {
-				padding: 20px;
-				transform: rotate(90deg);
+				width: 80px;
+			}
+
+			@media(max-width: 850px) {
+				flex-direction: column;
+				align-items: center;
+
+				.arrow {
+					padding: 20px;
+					transform: rotate(90deg);
+				}
+			}
+		}
+	}
+
+	.meet-sky {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+		padding: 20px;
+
+		.quote {
+			display: flex;
+			align-items: center;
+			width: 800px;
+			max-width: 100%;
+
+			blockquote {
+				display: flex;
+				flex-direction: column;
+				gap: 30px;
+				position: relative;
+				border: 1px solid var(--rust);
+				border-radius: 10px;
+				padding: 40px;
+				margin: 0;
+				line-height: 25px;
+				color: var(--gray);
+
+				&:before, &:after {
+					font-size: 140px;
+					background: white;
+					padding: 10px;
+					position: absolute;
+					height: 0;
+					padding: 40px 5px 20px 5px;
+				}
+
+				&:before {
+					content: "“";
+					top: -20px;
+					left: -20px;
+				}
+
+				&:after {
+					content: "”";
+					bottom: -20px;
+					right: -20px;
+				}
+			}
+
+			img {
+				position: relative;
+				height: 300px;
+				border-radius: 10px;
+				margin: 0 0 0 -20px;
+			}
+
+			@media(max-width: 850px) {
+				flex-direction: column;
+
+				img {
+					margin: -20px 0 0 0;
+				}
 			}
 		}
 	}
