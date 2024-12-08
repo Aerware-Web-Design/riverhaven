@@ -23,4 +23,9 @@ nav {
 			text-decoration: none;
 		}
 	}
+
+	.links {
+		display: flex;
+		gap: 20px;
+	}
 }
