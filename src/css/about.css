@@ -7,11 +7,6 @@ main {
 
 	.header-image {
 		background: url(../img/steps.jpg) center / cover;
-		height: 300px;
-
-		@media(max-width: 850px) {
-			height: 200px;
-		}
 	}
 
 	.about {

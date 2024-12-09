@@ -2,6 +2,7 @@
 
 :root {
 	--white: #ffffff;
+	--off-white: #f5fffe;
 	--black: #182018;
 	--gray: #565656;
 	--dark-gray: #182018;
@@ -84,4 +85,12 @@ hr {
 
 .hidden {
 	display: none;
+}
+
+.header-image {
+	height: 300px;
+
+	@media(max-width: 850px) {
+		height: 200px;
+	}
 }

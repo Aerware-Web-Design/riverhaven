@@ -1,1 +1,203 @@
 @import url(common.css);
+
+main {
+	.header-image {
+		background: url(../img/aerial-forest.jpg) center / cover;
+	}
+
+	.region {
+		background-color: var(--teal);
+		background-image: url(../img/whisps1-flipped.svg);
+		background-repeat: no-repeat;
+		background-position: calc(50%) calc(100% - 150px);
+		background-size: auto 60px;
+		padding: 20px;
+
+		h3 {
+			font-size: 35px;
+			font-weight: normal;
+			margin-top: 50px;
+
+			span {
+				font-size: 50px;
+			}
+		}
+
+		p {
+			color: var(--gray);
+			max-width: 650px;
+			margin: 10px 0;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+			max-width: 800px;
+			margin: auto;
+		}
+
+		.stats {
+			display: flex;
+			padding: 20px 0;
+			background: var(--off-white);
+			width: 600px;
+			border-radius: 7px;
+
+			.stat-section {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				width: 30%;
+
+				&:nth-child(2) {
+					border-left: 1px solid var(--teal);
+					border-right: 1px solid var(--teal);
+					width: 40%;
+				}
+
+				.heading {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					gap: 10px;
+					font-size: 14px;
+
+					h4 {
+						font-family: 'Playfair Display SC';
+						margin: 0;
+					}
+
+					img {
+						height: 20px;
+					}
+				}
+
+				.data {
+					display: flex;
+					flex-direction: column;
+					flex-wrap: wrap;
+					align-items: center;
+					gap: 10px;
+					padding: 0 20px;
+					height: 50px;
+					font-size: 12px;
+				}
+			}
+
+			@media(max-width: 650px) {
+				flex-direction: column;
+				align-items: center;
+				width: fit-content;
+				padding: 0 20px;
+
+				.stat-section {
+					width: fit-content;
+					padding: 20px 0;
+
+					&:nth-child(2) {
+						border: 0;
+						border-top: 1px solid var(--teal);
+						border-bottom: 1px solid var(--teal);
+						width: fit-content;
+					}
+
+					.data {
+						height: fit-content;
+						padding: 0;
+					}
+				}
+			}
+		}
+
+		@media(max-width: 730px) {
+			background-position: calc(50%) calc(100% - 200px);
+		}
+	}
+
+	.plot {
+		.container {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+			padding: 0 20px 20px 20px;
+			max-width: 670px;
+			margin: auto;
+		}
+
+		h4 {
+			font-family: 'Playfair Display SC';
+			font-weight: normal;
+		}
+
+		figure {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			margin: 0;
+
+			img {
+				width: 100%;
+			}
+			
+			figcaption {
+				text-align: center;
+				font-size: 14px;
+			}
+		}
+		
+		.why {
+			color: var(--gray);
+		}
+	}
+
+	.nearby {
+		padding: 20px;
+
+		h2 {
+			margin-bottom: -10px;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 30px;
+			max-width: 650px;
+			margin: auto;
+			color: var(--gray);
+		}
+		
+		.bubbles {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 20px;
+
+			.bubble {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 120px;
+				aspect-ratio: 1;
+				background: var(--light-blue);
+				border-radius: 50%;
+			}
+		}
+
+		.links {
+			padding: 20px 0 60px 0;
+
+			h4 {
+				font-family: 'Playfair Display SC';
+				font-weight: normal;
+			}
+
+			a {
+				color: var(--link-blue);
+			}
+		}
+	}
+}
