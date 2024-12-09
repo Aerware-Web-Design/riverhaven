@@ -112,7 +112,7 @@ main {
 		}
 
 		@media(max-width: 730px) {
-			background-position: calc(50%) calc(100% - 220px);
+			background-position: calc(50%) calc(100% - 240px);
 		}
 	}
 
@@ -144,6 +144,7 @@ main {
 			figcaption {
 				text-align: center;
 				font-size: 14px;
+				padding: 0 20px;
 			}
 		}
 		
@@ -189,6 +190,7 @@ main {
 
 		.links {
 			padding: 20px 0 60px 0;
+			word-wrap: anywhere;
 
 			h4 {
 				font-family: 'Playfair Display SC';
