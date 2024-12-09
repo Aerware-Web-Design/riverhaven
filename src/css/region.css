@@ -112,7 +112,7 @@ main {
 		}
 
 		@media(max-width: 730px) {
-			background-position: calc(50%) calc(100% - 200px);
+			background-position: calc(50%) calc(100% - 220px);
 		}
 	}
 
