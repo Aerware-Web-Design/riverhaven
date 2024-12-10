@@ -9,6 +9,20 @@ nav {
 		padding: 20px;
 		height: 50px;
 		margin: auto;
+		overflow: hidden;
+		transition: 0.2s;
+
+		&.expand {
+			height: fit-content;
+
+			@media(max-width: 850px) {
+				height: 95px;
+			}
+
+			@media(max-width: 400px) {
+				height: 177px;
+			}
+		}
 
 		img {
 			height: 50px;
@@ -22,10 +36,59 @@ nav {
 			color: var(--gray);
 			text-decoration: none;
 		}
+
+		@media(max-width: 850px) {
+			flex-direction: column;
+			align-items: start;
+		}
 	}
 
 	.links {
 		display: flex;
 		gap: 20px;
+
+		@media(max-width: 850px) {
+			justify-content: center;
+			flex-wrap: wrap;
+			padding-top: 20px;
+			width: 100%;
+
+			a {
+				width: 100px;
+				text-align: center;
+			}
+		}
+
+		@media(max-width: 400px) {
+			a {
+				width: calc(100vw - 40px);
+			}
+		}
+	}
+
+	#menu-button {
+		display: none;
+		justify-content: center;
+		align-items: center;
+		height: 45px;
+		aspect-ratio: 1;
+		background: var(--white);
+		border-radius: 50%;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+
+		&:hover {
+			background: var(--off-white);
+			cursor: pointer;
+		}
+
+		img {
+			width: 15px;
+		}
+
+		@media(max-width: 850px) {
+			display: flex;
+		}
 	}
 }
