@@ -18,6 +18,10 @@
 	}
 }
 
+.hbspt-form {
+	width: 100%;
+}
+
 .learn-more {
 	.container {
 		display: flex;
