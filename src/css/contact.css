@@ -69,6 +69,9 @@ main {
 		}
 		
 		.message {
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
 			padding: 20px;
 			width: 100%;
 			max-width: 600px;
