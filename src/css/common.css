@@ -87,6 +87,10 @@ hr {
 	width: 45px;
 }
 
+.rendered-image {
+	width: 600px;
+}
+
 .hidden {
 	display: none;
 }
